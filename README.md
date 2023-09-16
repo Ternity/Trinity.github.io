@@ -15,3 +15,4 @@ Welcome to my  persional Homepage！
         <i>Need more help? </a>See more information in <a rel="license" href="https://github.com/Ternity/Trinity.github.io/">My GitHub Homepage </a>or send me email. Thanks!</i><br/>
     </p>
 </div>
+You can change main to master to see more information.
