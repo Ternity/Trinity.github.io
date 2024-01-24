@@ -17,10 +17,10 @@
 学习资料源自廖雪峰老师博客[Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
 ## 目录
-* [背景](#charpt1)
-* [DeePSPIN用于构建正极材料的机器学习势函数](#practice)
-* [总结](#conclusion)
-* [参考文献](#reference)
+* [创建版本库](#charpt1)
+* [添加一个文件到仓库](#charpt2)
+* [修改文件](#charpt3)
+* [同步至远程仓库](#charpt4)
 
 ## 创建版本库 <a id ='charpt1'></a>
 将目录变为Git可管理的仓库：
@@ -135,7 +135,7 @@ nothing to commit, working tree clean
 可以看到git表示当前没有在暂存区的文件，工作区是干净的。
 
 
-
+## 提交到远程仓库
 使用命令提交至远程仓库：
 ```bash
 git push origin master
