@@ -16,7 +16,13 @@
 <br/>
 学习资料源自廖雪峰老师博客[Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
-## 创建版本库
+## 目录
+* [背景](#charpt1)
+* [DeePSPIN用于构建正极材料的机器学习势函数](#practice)
+* [总结](#conclusion)
+* [参考文献](#reference)
+
+## 创建版本库 <a id ='charpt1'></a>
 将目录变为Git可管理的仓库：
 ```bash
 git init
@@ -127,3 +133,26 @@ On branch master
 nothing to commit, working tree clean
 ```
 可以看到git表示当前没有在暂存区的文件，工作区是干净的。
+
+
+
+使用命令提交至远程仓库：
+```bash
+git push origin master
+```
+当我们提交至remote 仓库时候，输出：
+```log
+Counting objects: 18, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (18/18), 198.42 KiB | 796.00 KiB/s, done.
+Total 18 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Ternity/Trinity.github.io/pull/new/master
+remote:
+To github.com:Ternity/Trinity.github.io.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+```
